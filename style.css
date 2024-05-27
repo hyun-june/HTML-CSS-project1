@@ -1,0 +1,184 @@
+body{
+    margin: 0px;
+}
+
+
+.navcontainer{
+    border-bottom: 2px double #e4bbfe;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.audio-con{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 30px;
+}
+
+.logo-section{
+    color: #e4bbfe;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+#plan-img {
+    width: 900px;
+    height: auto;
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+.plan-section{
+    display: flex;
+    justify-content: center;
+}
+
+.img-section{
+    border: 2px solid #e4bbfe;
+    width: 100px;
+    height: 500px;
+    position: relative;
+    left: 31.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nav-section{
+    margin-top: 15px;
+    border-bottom: 1px dashed #e4bbfe;
+    padding-left: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.link-title{
+    width: 1120px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+summary {
+    list-style-type: none;
+}
+
+.sub-img{
+    width: 90px;
+    height: 80px;
+    margin: 5px;
+}
+
+
+/* CheckBox CSS */
+
+input[type="checkbox"] {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked::after {
+    content: '✓';
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 5px;
+    color: red;
+}
+
+#day1,#day2,#day3,#day4,#day5,#day6,#day7{
+    position: absolute;
+    top: 30.5%;
+}
+
+#day8,#day9,#day10,#day11,#day12,#day13,#day14{
+    position: absolute;
+    top: 51%;
+}
+
+#day1,#day8{
+    left: 34.7%;
+}
+
+#day2,#day9{
+    left: 40.5%;
+}
+
+#day3,#day10{
+    left: 46.2%;
+}
+
+#day4,#day11{
+    left: 52%;
+}
+
+#day5,#day12{
+    left: 57.6%;
+}
+
+#day6,#day13{
+    left: 63.3%;
+}
+
+#day7,#day14{
+    left: 69.2%;
+}
+
+@media (max-width:961px){
+    #day1,#day8{
+        left: 19.5%;
+    }
+    #day2,#day9{
+        left: 31%;
+    }
+    
+    #day3,#day10{
+        left: 42.3%;
+    }
+    
+    #day4,#day11{
+        left: 53.9%;
+    }
+    
+    #day5,#day12{
+        left: 65.4%;
+    }
+    
+    #day6,#day13{
+        left: 76.8%;
+    }
+    
+    #day7,#day14{
+        left: 88.4%;
+    }
+
+    .img-section{
+        border: 2px solid #e4bbfe;
+        width: 900px;
+        height: 100px;
+        position: relative;
+        left: 0em;
+        top: 32em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+}
