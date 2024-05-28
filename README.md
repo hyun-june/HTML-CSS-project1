@@ -1,5 +1,5 @@
-#HTML-CSS-project1
-##html/css 스터디 1일차 
+# HTML-CSS-project1
+## html/css 스터디 1일차 
 
 웹 사이트의 기본 틀을 이해할 수 있다.
 
