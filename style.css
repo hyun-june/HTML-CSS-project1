@@ -41,10 +41,16 @@ body {
   width: 100px;
   height: 500px;
   position: relative;
-  left: 31.5em;
+  left: 32.5em;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding: 0;
+  margin: 0;
+
+  & li {
+    list-style: none;
+  }
 }
 
 .nav-section {
